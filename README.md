@@ -1,4 +1,11 @@
-# Hierarchy filter
+# Senior Developer Assessment
+
+This repo has both tasks:
+
+- **Task 1: Hierarchy filter.** Code in `src/main/java/hierarchy`, tests in `src/test/java/hierarchy`. Details below.
+- **Task 2: SimpleCache code review.** See [SimpleCache.md](SimpleCache.md).
+
+# Task 1: Hierarchy filter
 
 `HierarchyFilter.filter(hierarchy, predicate)` returns a new hierarchy that keeps a node
 only if its ID passes the predicate **and** every ancestor passes it too.
@@ -32,7 +39,7 @@ a very deep chain, and a randomized comparison against a naive reference on 500 
 
 ## Run
 
-Java 17+ and Maven:
+Java 21+ and Maven:
 
 ```
 mvn test
